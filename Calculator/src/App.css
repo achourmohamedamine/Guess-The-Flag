@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+.container {
+    max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  
+  
+}
+    
+
+
+
+.Affichage{
+  background: #eaeaea;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: #333;
+  padding: 15px;
+  text-align: right;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+    
+}
+.text-center{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+  }
+.button{
+
+ background: #007bff;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  transition: background 0.3s ease, transform 0.1s ease;
+  cursor: pointer;
+  width: 120%;
+}
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Different styles for operators and clear button */
+  button[value='C'] {
+    background: #dc3545;
+  }
+  
+  button[value='C']:hover {
+    background: #a71d2a;
+  }
+  
+  button[value='='] {
+    background: #28a745;
+  }
+  
+  button[value='=']:hover {
+    background: #1e7e34;
+  }
