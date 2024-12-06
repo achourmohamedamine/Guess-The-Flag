@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  .container{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    font-size: 1.6rem;
+    padding: 10px;
+    border:2px solid hsl(0, 3%, 75%);
+    border-radius: 5px;
+    color: aliceblue;
+  }
+.btn {
+    font-size: 1.3rem;
+    margin: 10px;
+    background-color: green;
+}
+.text {
+    flex: 1;
+    font-size: 1.6rem;
+    margin: 10px;
+
+}
+ol{
+    font-size: 1.6rem;
+    margin: auto;
+}
+.delete {
+   font-size: 1.3rem;
+   margin: 10px;
+   background-color: red; 
+}
+li{
+    display: flex;
+    align-items: center;
+
+}
